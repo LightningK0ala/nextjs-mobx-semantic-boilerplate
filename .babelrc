@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "components": "./components",
+          "lib": "./lib",
+          "store": "./store"
+        }
+      }
+    ]
+  ]
+}
